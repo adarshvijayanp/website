@@ -122,7 +122,7 @@ FloatingActionButton(
         random.nextInt(256),
         random.nextInt(256),
         random.nextInt(256),
-        1,
+        1.0,
       );
 
       // Generate a random border radius.
@@ -195,7 +195,7 @@ class _AnimatedContainerAppState extends State<AnimatedContainerApp> {
                 random.nextInt(256),
                 random.nextInt(256),
                 random.nextInt(256),
-                1,
+                1.0,
               );
 
               // Generate a random border radius.
