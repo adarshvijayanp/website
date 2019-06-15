@@ -52,10 +52,10 @@ class AnimatedContainerApp extends StatefulWidget {
 class _AnimatedContainerAppState extends State<AnimatedContainerApp> {
   // Define the various properties with default values. Update these properties
   // when the user taps a FloatingActionButton.
-  double _width = 50;
-  double _height = 50;
+  double _width = 50.0;
+  double _height = 50.0;
   Color _color = Colors.green;
-  BorderRadiusGeometry _borderRadius = BorderRadius.circular(8);
+  BorderRadiusGeometry _borderRadius = BorderRadius.circular(8.0);
 
   @override
   Widget build(BuildContext context) {
@@ -150,10 +150,10 @@ class AnimatedContainerApp extends StatefulWidget {
 class _AnimatedContainerAppState extends State<AnimatedContainerApp> {
   // Define the various properties with default values. Update these properties
   // when the user taps a FloatingActionButton.
-  double _width = 50;
-  double _height = 50;
+  double _width = 50.0;
+  double _height = 50.0;
   Color _color = Colors.green;
-  BorderRadiusGeometry _borderRadius = BorderRadius.circular(8);
+  BorderRadiusGeometry _borderRadius = BorderRadius.circular(8.0);
 
   @override
   Widget build(BuildContext context) {
